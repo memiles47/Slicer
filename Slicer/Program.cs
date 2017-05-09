@@ -19,7 +19,7 @@ namespace Slicer
             //Format message
             var output = $"Your user name is {user} and your domain name is {domain}";
 
-            //Pring user namd and domain
+            //Print user namd and domain
             Console.WriteLine(output);
         }
     }
