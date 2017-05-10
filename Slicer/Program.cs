@@ -16,10 +16,8 @@ namespace Slicer
             //Slice out domain name
             var domain = email.Substring(email.IndexOf("@") + 1);
 
-            //Format message
             var output = $"Your user name is {user} and your domain name is {domain}";
 
-            //Print user namd and domain
             Console.WriteLine(output);
         }
     }
